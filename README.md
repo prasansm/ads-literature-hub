@@ -17,7 +17,6 @@ Advertising systems sit at the intersection of:
 - [Metrics and equations](#metrics-and-equations)
 - [Online courses](#online-courses)
 - [Foundational papers](#foundational-papers)
-- [Suggested study plan](#suggested-study-plan)
 - [Official references](#official-references)
 
 ## Start here
@@ -202,64 +201,6 @@ conversions
 - [Contextual Multi-Armed Bandits for Causal Marketing](https://arxiv.org/abs/1810.01859) — Contextual Thompson sampling and off-policy evaluation for marketing treatments.
 - [Improved Online Learning Algorithms for CTR Prediction in Ad Auctions](https://research.google/pubs/improved-online-learning-algorithms-for-ctr-prediction-in-ad-auctions/) — Feng, Liaw, and Zhou, *ICML 2023*. CTR learning, UCB mechanisms, regret, and strategic advertiser behavior.
 
-## Suggested study plan
-
-### Week 1: Domain vocabulary
-
-- Take Introduction to Digital Advertising.
-- Learn CTR, CVR, CPM, CPC, CPA, ROAS, reach, frequency, win rate, and impression share.
-- Read Introduction to Computational Advertising.
-
-### Week 2: Auction economics
-
-- Read the GSP paper and Position Auctions.
-- Work through first-price, second-price, GSP, and VCG examples by hand.
-- Write down advertiser utility, platform revenue, and social welfare separately.
-
-### Week 3: Prediction
-
-- Read Predicting Clicks and View from the Trenches.
-- Review log loss, normalized entropy, calibration, and position bias.
-- Build a calibrated logistic-regression pCTR baseline.
-
-### Week 4: Conversions
-
-- Read Modeling Delayed Feedback and ESMM.
-- Distinguish `pCVR`, `pCTCVR`, conversion value, and delayed labels.
-- Examine the selection bias caused by training only on clicked impressions.
-
-### Week 5: Budgets and pacing
-
-- Read AdWords and Generalized Online Matching.
-- Read Budget Pacing at LinkedIn.
-- Compare greedy per-auction ranking with a budget-aware global policy.
-
-### Week 6: Measurement
-
-- Take the A/B Testing course.
-- Read Counterfactual Reasoning and Unfavorable Economics.
-- Distinguish prediction, attribution, and causal incrementality.
-
-### Week 7: Bandits
-
-- Read the contextual-bandit paper.
-- Implement epsilon-greedy, UCB, and Thompson sampling.
-- Track cumulative regret and log action propensities.
-
-### Week 8: Capstone
-
-Build a small auction simulator containing:
-
-- CPC and CPA bids
-- True and predicted CTR/CVR
-- Calibration error
-- Quality adjustments
-- Multiple positions
-- GSP-like pricing
-- Daily budgets and pacing
-- Greedy, UCB, and Thompson-sampling policies
-- Revenue, advertiser value, user-quality, and regret metrics
-
 ## Official references
 
 - [Google Ads: CTR definition](https://support.google.com/google-ads/answer/2615875?hl=en)
@@ -281,4 +222,3 @@ Suggestions are welcome. When adding a resource, include:
 - The most relevant section of this README
 
 Avoid adding promotional blog posts when a primary paper or official source is available.
-
